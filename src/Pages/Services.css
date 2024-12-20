@@ -1,0 +1,135 @@
+/*information content starts */
+
+.information-content {
+    text-align: center;
+    margin-top: 100px;
+
+
+}
+
+.information-content h4 {
+    background-color: #2b4eff;
+    color: #ffffff;
+    width: 250px;
+    margin: 10px auto;
+    padding: 4px;
+    border-radius: 5px;
+
+}
+
+.information-content h1 {
+    width: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+    font-size: 35px;
+
+}
+
+.information-content p {
+    width: 100%;
+    max-width: 770px;
+    margin: 30px auto;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 500;
+    color: #707682;
+
+}
+
+.information-card {
+    color: #707682;
+}
+
+
+
+/*information content Ends */
+
+/*information-card-section starts*/
+
+.all-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px 120px;
+    gap: 35px 35px;
+}
+
+.information-card p {
+    width: 100%;
+    max-width: 310px;
+    font-size: 16px;
+    color: #707682;
+    margin:5px ;
+
+}
+
+.information-card {
+    border-radius: 5px;
+    padding: 35px 30px;
+    line-height: 1.5;
+    
+    box-shadow: 5px 10px 10px 8px #f0f0f3;
+
+}
+
+.information-card h2 {
+    font-size: 16px;
+
+
+}
+
+.a1 {
+    background-color: #f2eaff;
+    color: #864dfe;
+    padding: 2px 4px;
+    border-radius: 3px;
+    width: 125px;
+}
+
+.a2 {
+    background-color: #e9edff;
+    color: #3b58ff;
+    padding: 2px 4px;
+    border-radius: 3px;
+    width: 140px;
+}
+
+.a3 {
+    background-color: #eaf6e8;
+    color: #56af4e;
+    padding: 2px 4px;
+    border-radius: 3px;
+    width: 90px;
+}
+
+.a4 {
+    background-color: #fef1e8;
+    color: #fb843d;
+    padding: 2px 4px;
+    border-radius: 3px;
+    width: 150px;
+}
+
+.a5 {
+    background-color: #fee9f2;
+    color: #cd256d;
+    padding: 2px 4px;
+    border-radius: 3px;
+    width: 170px;
+}
+
+.a6 {
+    background-color: #e7f5fc;
+    color: #1f6587;
+    padding: 2px 4px;
+    border-radius: 3px;
+    width: 200px;
+}
+
+
+.information-card img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*information section ends */

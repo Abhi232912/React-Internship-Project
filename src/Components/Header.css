@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: transparent;
+    font-family: "Nunito Sans", sans-serif;
+} 
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Top Bar  starts*/
+
+.top-bar {
+    background-color: #b8dde3;
+    padding: 25px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-barcontact,
+.top-barcontact ul {
+    display: flex;
+    align-items: center;
+}
+
+.top-barcontact ul li a {
+    padding: 0px 10px;
+    color: #45546c;
+}
+
+.top-barcontact button {
+    background-color: #2b4eff;
+    color: #ffffff;
+    padding: 12px 32px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Top Bar  ends*/
