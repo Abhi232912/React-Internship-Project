@@ -128,7 +128,7 @@
     right: 145px;
     top: 359px;
     border-radius: 5px;
-    background-color:#2b4eff;
+    background-color: #2b4eff;
 }
 
 
@@ -194,7 +194,7 @@
     max-width: 310px;
     font-size: 16px;
     color: #707682;
-    margin:5px ;
+    margin: 5px;
 
 }
 
@@ -202,7 +202,7 @@
     border-radius: 5px;
     padding: 35px 30px;
     line-height: 1.5;
-    
+
     box-shadow: 5px 10px 10px 8px #f0f0f3;
 
 }
@@ -316,7 +316,7 @@
     padding: 22px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap:40px;
+    column-gap: 40px;
 
 }
 
@@ -555,7 +555,7 @@
     align-items: center;
     margin: 20px auto;
     position: relative;
-    margin:20px auto;
+    margin: 20px auto;
 }
 
 
@@ -573,7 +573,7 @@
     border-radius: 5px;
     padding: 0px 30px;
     height: 40px;
-    margin-left:40px;
+    margin-left: 40px;
 }
 
 .apply-course button:hover {
@@ -617,8 +617,8 @@
     box-shadow: -1px 10px 20px 3px #e9eaee;
     border-radius: 7px;
     background-color: #ffff;
-    width:100%;
-    max-width:700px;
+    width: 100%;
+    max-width: 700px;
 }
 
 /*Frequently asked questions ends*/
@@ -631,8 +631,8 @@
     padding: 25px 120px;
     background-color: #edeef3;
     position: relative;
-    width:100%;
-    max-width:800px;
+    width: 100%;
+    max-width: 800px;
     height: 200px;
     margin: 55px auto;
     border-radius: 10px;
@@ -681,8 +681,525 @@
 
 .get-start-content button:hover {
     background-color: #ffffff;
-    color:#2b4eff;
-    border:1px solid black;
+    color: #2b4eff;
+    border: 1px solid black;
+}
+
+/*Get start section ends*/
+
+
+@media only screen and (max-width:767px) {
+
+
+
+
+    /* Hero section starts */
+
+    .herosection-content {
+        padding: 26px 30px;
+    }
+
+    .herosection-content h4 {
+        padding: 5px 10px;
+        font-size: 10px;
+        width: 151px;
+        margin-top: 60px;
+    }
+
+    .herosection-content h1 {
+        font-size: 13px;
+
+    }
+
+    .herosection-content p {
+        max-width: 170px;
+        font-size: 10px;
+    }
+
+    .herosection-images .img-1 {
+
+        left: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .herosection-images .img-2 {
+
+        top: 200px;
+        width: 15px;
+        height: 70px;
+    }
+
+    .herosection-images .img-3 {
+
+        top: 160px;
+        right: 10px;
+        width: 140px;
+        height: 140px;
+
+    }
+
+    .herosection-images .img-4 {
+
+        top: 170px;
+        right: 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .herosection-images .img-5 {
+
+        top: 270px;
+        width: 10px;
+        height: 30px;
+    }
+
+    .herosection-images .img-a {
+        width: 15px;
+        height: 14px;
+        right: 87px;
+        top: 185px;
+    }
+
+    .herosection-images .img-b {
+        width: 15px;
+        height: 15px;
+        right: 125px;
+        top: 205px;
+    }
+
+    .herosection-images .img-c {
+        width: 15px;
+        height: 15px;
+        right: 25px;
+        top: 210px;
+    }
+
+    .herosection-content img {
+
+        padding-left: 50px;
+    }
+
+    .herosection-content .btn-2 {
+        padding: 8px 10px;
+        margin-left: 20px;
+        font-size: 8px;
+        margin-left: 0px;
+    }
+
+    .hero-section {
+
+        height: 400px;
+
+    }
+
+    /* Hero section Ends */
+
+    /*information content starts */
+
+    .information-content h1 {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .information-content p {
+        max-width: 300px;
+        font-size: 12px;
+    }
+
+    .all-information {
+        grid-template-columns: 1fr;
+        padding: 26px 30px;
+    }
+
+    /*information section ends */
+
+    /* Benefits Section content Starts */
+
+
+    .benefits-content h1 {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .benefits-content p {
+        color: #707682;
+        font-size: 13px;
+    }
+
+    .all-benefits {
+        grid-template-columns: 1fr;
+        padding: 25px 60px;
+        gap: 20px;
+    }
+
+    /* all Benefits  Ends*/
+
+    /*About Section Starts*/
+    .about-section {
+        padding: 26px 30px;
+        grid-template-columns: 1fr;
+        margin-top: 60px;
+
+    }
+
+    .about-content {
+        margin-top: 400px;
+        margin-left: 20px;
+    }
+
+    .about-content h1 {
+        font-size: 25px;
+    }
+
+
+    .about-content p {
+        font-size: 14px;
+    }
+
+    .images-section {
+        margin-left: 20px;
+    }
+
+    .img-6 {
+        left: 150px;
+        margin-top: 200px;
+        width: 180px;
+
+    }
+
+    .img-7 {
+        left: 200px;
+        margin-top: 20px;
+        width: 120px;
+    }
+
+    .img-8 {
+        margin-top: 110px;
+        left: 260px;
+        width: 100px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .img-9 {
+        left: 10px;
+        width: 40px;
+        margin-top: 250px;
+    }
+
+    .img-10 {
+        left: 20px;
+        margin-top: 10px;
+        width: 250px;
+        margin-top: 60px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .aboutimages-content {
+        width: 158px;
+        left: 149px;
+        margin-top: 257px;
+        font-size: 13px;
+        font-size: 8px
+    }
+
+
+
+    /*About Section Ends*/
+
+    /*Courses Section Starts*/
+
+
+    .courses-section {
+        padding: 26px 30px;
+    }
+
+
+    .course-heading h1 {
+        font-size: 25px;
+    }
+
+    .course-heading img {
+
+        left: 60px;
+    }
+
+    .all-courses {
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+
+    .apply-course {
+        margin: 20px auto;
+        left: 10px;
+        padding: 10px;
+    }
+
+    .apply-course h1 {
+        font-size: 10px;
+    }
+
+    /*Courses Section Ends*/
+
+    /*Frequently asked questions starts*/
+
+    .questions-heading h1 {
+        font-size: 25px;
+    }
+
+    .all-questions ul li {
+        width: 100%;
+        max-width: 300px;
+        padding: 20px 10px;
+        font-size: 10px;
+        margin: 5px auto;
+    }
+
+    .frequently-asked-questions {
+       /* background-image: url('../images/events-shape.png');*/
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        height: 700px;
+    }
+
+    /*Get start section starts*/
+
+    /*Frequently asked questions ends*/
+
+    .get-start {
+        padding: 25px 20px;
+        width: 100%;
+        max-width: 300px;
+        height: 75px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .get-start-content h1 {
+        font-size: 13px;
+        padding: 0px 13px;
+    }
+
+    .get-start-content button {
+        height: 36px;
+        width: 88px;
+        margin-top: 110px;
+        color: #ffff;
+        background-color: #2b4eff;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .get-start-content button {
+        height: 23px;
+        width: 82px;
+        margin-top: 25px;
+        color: #ffff;
+        border-radius: 5px;
+    }
+
+    .image-11 {
+
+        left: -65px;
+        width: 100px;
+        top: -40px;
+
+    }
+
+    .image-12 {
+        right: -7px;
+        top: 34%;
+        width: 25px;
+    }
+
+}
+
+/*Get start section ends*/
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    /* Hero section starts */
+    .herosection-content {
+        padding: 30px 80px;
+    }
+
+    .herosection-content h1 {
+        font-size: 25px;
+
+    }
+
+    .herosection-content p {
+        max-width: 280px;
+    }
+
+    .herosection-images .img-3 {
+        top: 191px;
+        right: 42px;
+        width: 400px;
+        height: 378px;
+    }
+
+    .herosection-images .img-4 {
+        top: 210px;
+        right: 22px;
+        width: 461px;
+        height: 447px;
+    }
+
+    .herosection-images .img-a {
+        right: 260px;
+        top: 260px;
+    }
+
+    .herosection-images .img-b {
+        right: 379px;
+        top: 315px;
+    }
+
+    .herosection-images .img-c {
+        right: 75px;
+        top: 340px;
+    }
+
+    /* Hero section Ends */
+
+    /*information content starts */
+
+    .all-information {
+        grid-template-columns: 1fr 1fr;
+        padding: 8px 56px;
+    }
+
+    .information-content p {
+        width: 100%;
+        max-width: 722px;
+    }
+
+    /*information section ends */
+
+
+    /* Benefits Section content Starts */
+    .all-benefits {
+        padding: 25px 100px;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .benefits-content h4 {
+        padding: 10px 10px;
+    }
+
+    .benefit-1 {
+        width: 220px;
+    }
+
+    .benefit-2 {
+        width: 220px;
+    }
+
+    .benefit-3 {
+        width: 220px;
+    }
+
+    .benefit-4 {
+        width: 220px;
+    }
+
+    /* Benefits Section content Ends*/
+
+
+
+
+    /*About Section Starts*/
+    .about-section {
+        grid-template-columns: 1fr;
+        padding: 30px 80px;
+    }
+
+    .about-content {
+        margin-top: 600px;
+
+    }
+
+    .about-content p {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /*About Section Ends*/
+
+    /*Courses Section Starts*/
+    .courses-section {
+        padding: 30px 80px;
+    }
+
+    .course-heading img {
+
+        left: 135px;
+    }
+
+    .all-courses {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .apply-course h1 {
+        max-width: 368px;
+        font-size: 18px;
+    }
+
+
+    .apply-course button {
+        padding: 0px 24px;
+        height: 50px;
+    }
+
+    /*Courses Section Ends*/
+
+    /*Frequently asked questions starts*/
+
+    .questions-heading h1 {
+        padding: 0px 100px;
+    }
+
+    .all-questions ul li {
+        width: 510px;
+        margin: 5px auto;
+    }
+
+    /*Frequently asked questions ends*/
+
+
+    /*Get start section starts*/
+
+    .get-start {
+        width: 100%;
+        max-width: 400px;
+        height: 160px;
+        margin: 50px auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .get-start-content h1 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .get-start-content button {
+        height: 54px;
+        width: 118px;
+        margin-top: 30px;
+    }
+
 }
 
 /*Get start section ends*/

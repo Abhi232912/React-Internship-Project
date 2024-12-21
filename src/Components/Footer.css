@@ -11,7 +11,7 @@
     margin-top: 100px;
     column-gap: 45px;
     row-gap: 30px;
-    margin-top:150px;
+    margin-top: 150px;
 }
 
 .available-courses h1 {
@@ -24,8 +24,9 @@
     color: #707682;
     line-height: 2;
     font-size: 15px;
-    
+
 }
+
 /* Footer Section Ends*/
 
 
@@ -47,3 +48,43 @@
 }
 
 /* all rights Ends*/
+
+
+
+@media only screen and (max-width:767px) {
+    /* Footer Section Starts*/
+
+    .footer-section {
+        background-color: #0e1133;
+        padding: 25px 20px;
+    }
+
+    .available-courses {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+
+    /* Footer Section Ends*/
+
+}
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+
+    /* Footer Section Starts*/
+
+    .available-courses {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    /* Footer Section Ends*/
+
+    /* all rights starts */
+
+    /* all rights Ends*/
+}

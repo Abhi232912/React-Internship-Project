@@ -44,7 +44,7 @@
     padding: 22px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap:40px;
+    column-gap: 40px;
 
 }
 
@@ -95,3 +95,64 @@
 }
 
 /* all Benefits  Ends*/
+
+
+@media only screen and (max-width:767px) {
+    /* Benefits Section content Starts */
+
+
+    .benefits-content h1 {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .benefits-content p {
+        color: #707682;
+        font-size: 13px;
+    }
+
+    .all-benefits {
+        grid-template-columns: 1fr;
+        padding: 25px 60px;
+        gap: 20px;
+    }
+
+}
+
+/* all Benefits  Ends*/
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    /* Benefits Section content Starts */
+    .all-benefits {
+        padding: 25px 100px;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .benefits-content h4 {
+        padding: 10px 10px;
+    }
+
+    .benefit-1 {
+        width: 220px;
+    }
+
+    .benefit-2 {
+        width: 220px;
+    }
+
+    .benefit-3 {
+        width: 220px;
+    }
+
+    .benefit-4 {
+        width: 220px;
+    }
+
+}
+
+/* Benefits Section content Ends*/

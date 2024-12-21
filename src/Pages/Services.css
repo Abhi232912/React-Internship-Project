@@ -58,7 +58,7 @@
     max-width: 310px;
     font-size: 16px;
     color: #707682;
-    margin:5px ;
+    margin: 5px;
 
 }
 
@@ -66,7 +66,7 @@
     border-radius: 5px;
     padding: 35px 30px;
     line-height: 1.5;
-    
+
     box-shadow: 5px 10px 10px 8px #f0f0f3;
 
 }
@@ -131,5 +131,47 @@
     height: 50px;
 }
 
+
+/*information section ends */
+
+
+@media only screen and (max-width:767px) {
+
+    /*information content starts */
+
+    .information-content h1 {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .information-content p {
+        max-width: 300px;
+        font-size: 12px;
+    }
+
+    .all-information {
+        grid-template-columns: 1fr;
+        padding: 26px 30px;
+    }
+}
+
+/*information section ends */
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    /*information content starts */
+
+    .all-information {
+        grid-template-columns: 1fr 1fr;
+        padding: 8px 56px;
+    }
+
+    .information-content p {
+        width: 100%;
+        max-width: 722px;
+    }
+}
 
 /*information section ends */
