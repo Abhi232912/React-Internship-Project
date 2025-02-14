@@ -6,13 +6,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 
+
 const FAQs = () => {
   return (
     <div>
         <Header />
         {/* <!--Frequently asked questions starts--> */}
 
-<section class="frequently-asked-questions" style={{backgroundImage:"url('images/events-shape.png')"}}>
+<section class="frequently-asked-questions" >
     <div class="questions-heading">
         <h1>Frequently Asked Questions</h1>
         <div class="all-questions">
