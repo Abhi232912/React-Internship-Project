@@ -12,5 +12,4 @@ This project was developed during my internship at **Digit Institute** as part o
 - **Deployment**:  
   - 🚀 **Netlify** was used to deploy the project, providing a live link to access the site directly from the GitHub repository.
 
-## 🌍 Live Demo 
-🔗 [Project Live Site]([(https://intenship-project.netlify.app/)])
+
