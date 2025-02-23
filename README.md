@@ -13,4 +13,4 @@ This project was developed during my internship at **Digit Institute** as part o
   - 🚀 **Netlify** was used to deploy the project, providing a live link to access the site directly from the GitHub repository.
 
 ## 🌍 Live Demo 
-🔗 [Project Live Site](YOUR_NETLIFY_LINK)
+🔗 [Project Live Site]([YOUR_NETLIFY_LINK](https://intenship-project.netlify.app/))
